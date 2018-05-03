@@ -5,5 +5,6 @@ import (
 )
 
 func main() {
-	fmt.Printf("%d - %b", 42, 42)
+	// Print 42 in decimal, binary, hexdecimal
+	fmt.Printf("%d, %b, %x\n", 42, 42, 42)
 }
